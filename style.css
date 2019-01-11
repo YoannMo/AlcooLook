@@ -1,0 +1,49 @@
+body {
+  padding:2%;
+}
+
+body .row h1 {
+  font-family : Times, Times New Roman, serif	;
+  font-size: 60px;
+  font-weight: bold;
+  font-family:"Biscuit";
+  color:white;
+}
+
+body .row h4{
+  font-family : "Biscuit"	;
+  font-size:15px;
+  font-style: underline;
+  color: blue;
+  cursor: pointer;
+}
+
+.btn {
+  font-family : Times, Times New Roman, serif	;
+  background-color : rgba(0,0,0,0.2);
+  margin-top:2%;
+}
+
+#cadre {
+  background-color: #5D2839;
+  border-radius : 10px;
+  overflow:auto;
+}
+
+body .row #gauche {
+  background-color:  rgba(0,0,0,0.5);
+  border-top: 2px solid black;
+}
+
+body .row #droite {
+  background-color:  rgba(0,0,0,0.2);
+  border-top: 2px solid black;
+}
+#cadre btn:focus {
+  outline:none;
+}
+
+@font-face {
+  font-family: "Biscuit";
+  src: url(Biscuit.ttf) format("truetype");
+}
