@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+      <meta charset="utf-8" />
+                          <!-- Pour un commentaire-->
+        <link rel="stylesheet" href="Site.css">
+        <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" media="all"/>
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+    <style>
+
+      </style>
+</head>
+
+
+<body>
+  <div class="cadre">
+
+
+  <header>
+
+
+
+             <div class="bandesup">
+
+
+
+
+
+                      <div class="titre">
+                          <h1><a href="Site.html">AlcooLook</a></h1>
+                      </div>
+
+                      <div class="connect">
+                        <h1><a href="profil.html">Me connecter</a></h1>
+
+                      </div>
+
+             </div>
+  </header>
+<div class="conso">
+
+
+
+           <div class="colormenu">
+
+
+                     <div class="menu">
+
+                          <ul>
+                              <li><a href="profil.html"> Profil</a></li>
+                              <li><a href="Conso.html"> Consommation</a></li>
+                              <li><a href="AlcooDex.html"> AlcooDex</a></li>
+                              <li><a href="Alcoopains.html"> Alcoopains</a></li>
+                              <li><a href="settings.html"> Parametres</a></li>
+                          </ul>
+                    </div>
+          </div>
+
+                        <div class="centre">
+
+
+                             <div class="cb">
+                                <h3>Combien de cl avez vous bu ?</h3>
+                             </div>
+                        </div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
