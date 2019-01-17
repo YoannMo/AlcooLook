@@ -1,0 +1,173 @@
+body {
+  padding:2%;
+}
+
+body .row h1 {
+  font-family : Times, Times New Roman, serif	;
+  font-size: 60px;
+  font-weight: bold;
+  font-family:"Biscuit";
+  color:white;
+}
+
+body .row h4{
+  font-family : "Biscuit"	;
+  font-size:15px;
+  font-style: underline;
+  color: blue;
+  cursor: pointer;
+}
+
+.btn {
+  font-family : Times, Times New Roman, serif	;
+  background-color : rgba(0,0,0,0.2);
+  margin-top:2%;
+}
+
+#cadre {
+  background-color: #5D2839;
+  border-radius : 10px;
+  overflow-x:hidden;
+  margin-top: 10%;
+
+}
+
+body .row #gauche {
+  background-color:  rgba(0,0,0,0.5);
+  border-top: 2px solid black;
+}
+
+body .row #droite {
+  background-color:  rgba(0,0,0,0.2);
+  border-top: 2px solid black;
+}
+#cadre btn:focus {
+  outline:none;
+}
+
+@font-face {
+  font-family: "Biscuit";
+  src: url(Police/Biscuit.ttf) format("truetype");
+}
+.menu{
+  display: block;
+  flex-direction: column;
+  background-color: #5D2839;
+  height: 80vh;
+  line-height: 13vh;
+  border-style: hidden;
+  border-bottom-right-radius: 50px;
+  font-family:'Biscuit';
+  font-size:30px;
+  color:white;
+  padding: 0;
+  width: 100%;
+
+}
+.colormenu{
+  background-color: #5D2839;
+  width: 15%;
+  border-style: hidden;
+  border-bottom-right-radius: 50px;
+  padding: 0;
+  height: 80vh;
+  position: sticky;
+  top: 0;
+  }
+.bandesup{
+  background-color: #5D2839;
+  height: 100px;
+  border-style: hidden;
+  border-bottom-right-radius: 50px;
+  display: flex;
+
+
+}
+.titre{
+  padding-top: 20px;
+  padding-left: 70px;
+  font-family:'Biscuit';
+  font-size:60px;
+  color:white;
+
+}
+.connect{
+  padding-top: 20px;
+  padding-left: 70px;
+  font-family:'Biscuit';
+  font-size:60px;
+  color:white;
+  margin-left: 75%;
+
+
+
+}
+
+li{
+  padding-left: 50px;
+}
+
+li,a{
+ list-style-type: none;
+
+}
+.menu li:hover{
+   background-color: rgba(0, 0, 0, 0.6);
+}
+html,body{
+  padding: 0;
+  margin: 0;
+  height:100vh;
+  font-size: 100%;
+}
+body ul a{
+  color: white;
+  text-decoration: none;
+}
+body ul a:hover{
+  color: white;
+  text-decoration: none;
+}
+body header a:hover{
+  color: white;
+  text-decoration: none;
+}
+body header a{
+  color: white;
+}
+.centre{
+  background-color:#5D2839;
+  margin-left: 20%;
+  height: 150px;
+  width: 30%;
+  border-style: hidden;
+  border-radius: 50px;
+  margin-top: 15%;
+  font-family:'Biscuit';
+  font-size:60px;
+  color:white
+
+}
+.cb{
+  padding-left: 40px;
+  padding-top: 10px;
+}
+.conso{
+  display: flex;
+  background-color: white;
+}
+@font-face {
+  font-family: "Biscuit";
+  src: url(Police/Biscuit.ttf) format("truetype");
+}
+
+
+.cadres {
+  background-color: #5D2839;
+  border-bottom-right-radius: 10px;
+}
+body .menu {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 80vh;
+
+}

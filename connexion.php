@@ -1,22 +1,32 @@
+<html>
 <?php
-try
-{
-  $bdd = new PDO('mysql:host=localhost;dbname=alcoolook;charset=utf8', 'root', '');
-}
-catch(Exception $e)
-{
-        die('Erreur : '.$e->getMessage());
-}
-
-$mail = $_POST['mail'];
-//  Récupération de l'utilisateur et de son pass hashé
-$req = $bdd->exec("SELECT id, pass FROM membres WHERE email = '$mail'");
-$resultat = $req->fetch();
-
-// Comparaison du pass envoyé via le formulaire avec la base
-if ($_POST['pass'] === $resultat['pass']){
-  echo "Connecté !";
-}
-
+    try
+    {
+      $bdd = new PDO('mysql:host=localhost;dbname=alcoolook;charset=utf8', 'root', '');
+    }
+    catch(Exception $e)
+    {
+            die('Erreur : '.$e->getMessage());
+    }
+    $pass = $_POST['pass'];
+    //  Récupération de l'utilisateur et de son pass hashé
+    if($_POST['pseudo'] !== "" && $_POST['pass'] !== ""){
+      $reponse = $bdd->query("SELECT * FROM client WHERE pseudo LIKE '".$_POST['pseudo']."'");
+        while($donnees=$reponse->fetch()){
+          if($pass == $donnees['mdp']){
+            session_start();
+            header('Location: session.php');
+            $_SESSION['prenom'] = $donnees['prenom'];
+            $_SESSION['nom'] = $donnees['nom'];
+          }
+          else {
+            header('Location: profilv2.php?erreur=1');
+          }
+        }
+      }
+    else {
+        header('Location: profilv2.php?erreur=2');
+    }
 
 ?>
+</html>
