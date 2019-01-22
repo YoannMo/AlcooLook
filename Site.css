@@ -1,0 +1,157 @@
+body{
+  overflow-y:hidden;
+}
+
+.menu{
+  display: block;
+  flex-direction: column;
+  line-height: 13vh;
+  border-style: hidden;
+  border-bottom-right-radius: 50px;
+  font-family:'Biscuit';
+  font-size:30px;
+  color:white;
+  padding: 0;
+  width: 100%;
+  height:100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.colormenu{
+  background-color: #5D2839;
+  width: 15%;
+  border-style: hidden;
+  border-bottom-right-radius: 50px;
+  padding: 0;
+  height:90vh;
+  position: sticky;
+  top: 0;
+  }
+
+.presentation{
+  font-family:'Biscuit';
+  font-size:20px;
+  margin-left: 3%;
+  margin-top: 3%;
+  border-right: solid;
+  padding-right: 30px;
+
+}
+.presentation h1 {
+    color:#5D2839;
+}
+.presentation h3{
+  color: #DC143C
+}
+.bandesup{
+  background-color: #5D2839;
+  height: 100px;
+  border-style: hidden;
+  border-bottom-right-radius: 50px;
+  display: flex;
+
+
+}
+.titre{
+  padding-top: 20px;
+  padding-left: 70px;
+  font-family:'Biscuit';
+  font-size:60px;
+  color:white;
+
+}
+.connect{
+  padding-top: 20px;
+  padding-left: 70px;
+  font-family:'Biscuit';
+  font-size:60px;
+  color:white;
+  margin-left: 75%;
+
+
+
+}
+
+
+li,a{
+ list-style-type: none;
+
+
+}
+li{
+  padding-left: 50px;
+}
+.menu li:hover{
+   background-color: rgba(0, 0, 0, 0.6);
+}
+body{
+  padding: 0;
+  margin: 0;
+  height:100vh;
+  font-size: 100%;
+
+}
+
+body ul a{
+  color: white;
+  text-decoration: none;
+}
+body ul a:hover{
+  color: white;
+  text-decoration: none;
+}
+body header a:hover{
+  color: white;
+  text-decoration: none;
+}
+body header a{
+  color: white;
+}
+.centre{
+  background-color:#5D2839;
+  height: 150px;
+  width: 60%;
+  border-style: hidden;
+  border-radius: 50px;
+  float: right;
+  margin-left: 5%;
+  margin-top: 10%;
+  margin-bottom:10%;
+  font-family:'Biscuit';
+  font-size:60px;
+  color:white
+
+
+
+}
+.cb{
+  padding-left: 40px;
+  padding-top: 10px;
+
+}
+.alcool{
+  padding-left: 40px;
+  padding-top: 10px;
+}
+.inlinecb{
+  display: flex;
+}
+
+
+.conso{
+  display: flex;
+  background-color: #FFF5EE;
+}
+@font-face {
+  font-family: "Biscuit";
+  src: url(Biscuit.ttf) format("truetype");
+}
+
+
+.cadres {
+  background-color: #5D2839;
+  border-bottom-right-radius: 0px;
+}
+
+.pagep{
+  display: flex;
+}
